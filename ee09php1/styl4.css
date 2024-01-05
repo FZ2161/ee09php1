@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 3% 94% 3%;
+    grid-template-areas: 
+    'baner baner'
+    'lewy prawy'
+    'stopka stopka';
+
+    font-family: Helvetica;
+
+}
+#baner{
+    grid-area: baner;
+}
+#lewy{
+    grid-area: lewy;
+}
+#prawy{
+    grid-area: prawy;
+}
+#stopka{
+    grid-area: stopka;
+}
+h3{
+    text-align: center;
+}
+#baner, #stopka{
+    background-color: #AF4448;
+    color: white;
+    text-align: center;
+    height: 20px;
+}
+#lewy, #prawy{
+    height: 650px;
+    background-color: #FFA4A2;
+}
+h4{
+    margin: 0px;
+}
